@@ -2,7 +2,7 @@ import React from 'react'
 import { HERO_CONTENT } from '../constraints'
 import mine from "../assets/no_bg_mine.png"
 import { motion } from "motion/react"
-import resume from "../assets/techs/resume Online.pdf"
+import resume from "/Jerry James Resume.pdf"
 import Resume_Button from "../constraints/Resume_Button"
 import { IoMdDownload } from "react-icons/io"
 
