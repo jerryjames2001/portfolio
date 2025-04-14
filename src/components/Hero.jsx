@@ -1,6 +1,7 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constraints'
-import mine from "../assets/no_bg_mine.png"
+// import mine from "../assets/no_bg_mine.png"
+import mine from "../assets/blibli.webp"
 import { motion } from "motion/react"
 import resume from "/Jerry James Resume.pdf"
 import Resume_Button from "../constraints/Resume_Button"
@@ -62,7 +63,7 @@ function Hero() {
                         </motion.div>
                     </div>
                 </div>
-                <div className='w-full lg:w-1/2 lg:p-8'>
+                <div className='w-full lg:w-1/2 lg:p-8 mt-10 sm:mt-20 md:mt-18 lg:mt-18 xl:mt-10'>
                     <div className='flex justify-center lg:justify-end'>
                         <motion.img
                             initial={{ x: 100, opacity: 0 }}
@@ -70,7 +71,7 @@ function Hero() {
                             transition={{ duration: 1.5, delay: 0.25 }}
                             src={mine}
                             alt="profile pic"
-                            className='h-96 w-auto object-contain sm:h-50 lg:h-80 xl:h-96'
+                            className='h-96 w-auto object-contain sm:h-50 lg:h-80 xl:h-96 rounded-xl'
                         />
                     </div>
                 </div>
