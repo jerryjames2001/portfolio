@@ -91,7 +91,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Ettumanoor P.O , Kottayam , 686631 ",
-  phoneNo: "+91 8078078192 ",
-  email: "jerryjamesedavazhickal@gmail.com",
+  address: " Kottayam , 686631 ",
+  phoneNo: "+91 ",
+  email: "",
 };
